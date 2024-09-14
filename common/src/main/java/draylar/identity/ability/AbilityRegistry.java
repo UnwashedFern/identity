@@ -20,6 +20,7 @@ public class AbilityRegistry {
         register(EntityType.CREEPER, new CreeperAbility());
         register(EntityType.ENDER_DRAGON, new EnderDragonAbility());
         register(EntityType.ENDERMAN, new EndermanAbility());
+        register(EntityType.SAVANNA_ENDERMAN, new EndermanAbility());
         register(EntityType.GHAST, new GhastAbility());
         register(EntityType.SNOW_GOLEM, new SnowGolemAbility());
         register(EntityType.WITHER, new WitherEntityAbility());
